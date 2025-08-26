@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: n8n-smith
+    env: docker
+    plan: starter   # o el plan que uses en Render
+    autoDeploy: true
+    dockerfilePath: Dockerfile
